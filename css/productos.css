@@ -1,0 +1,79 @@
+.menu{
+    background-color:#016274;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.3;
+    z-index: -1;
+}
+.carousel{
+margin-left:2.6%;
+margin-top:3%;
+}
+.top-products{
+    margin-top: 3%;
+}
+.top-products h1{
+    text-align: center;
+}
+.container-options{
+margin-left: 15%;
+justify-content: center;
+}
+.container-options span{
+    padding-right:2%;
+    margin-left:10%;
+    color:gray;
+    cursor: pointer;
+    font-size: 18px;
+    font-style: oblique;
+}
+.heading-2{
+    margin-top:5%;
+}
+.hola img:hover{
+    opacity:10%;
+    cursor: pointer;
+}
+.juli p{
+    color: transparent;
+}
+.juli p:hover{
+    cursor: pointer;
+    color: black;
+}
+.heading-3{
+    margin-top: 5%;
+}
+.line{
+    text-decoration: line-through;
+}
+.girarc img:hover{
+    cursor: pointer;
+    animation-name: girar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+}
+@keyframes girar {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }   
+}
+.container-fluid {
+    text-align: justify;
+}
+.redes a{
+    font-size: 35px;
+    margin-left: 5%;
+}

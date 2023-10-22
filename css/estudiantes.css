@@ -1,0 +1,47 @@
+*
+    {
+        padding: 0%;
+        margin: 0%;
+    }
+#contenedor 
+    {
+        width: 100%;
+        height: 1000px;
+        background-color:rgb(255, 250, 243);
+        overflow: hidden;
+    }
+header{
+background-color:rgb(34, 95, 119);
+width: 100%;
+height: 100px;
+    }
+.contcent{
+    width: 100%;
+    height:150px ;
+    background-color:rgb(34, 95, 119);
+    text-align: center;
+    color: beige;
+    font-family:arial;
+    font-size:32px;
+}
+.caja{
+    width: 33.3%;
+    height: 370px;
+    float: left;
+}
+.caja2{
+    font-family: tahoma;
+    margin-top: 2%;
+}
+.boton{
+    padding:3% 6%;
+    margin: 9% 0;
+    background:rgb(34, 95, 119);
+    color :white;
+    font-size:smaller;
+    text-align: center;
+}
+.boton:hover{
+    cursor: pointer;
+    
+}

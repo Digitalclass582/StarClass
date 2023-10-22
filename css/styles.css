@@ -1,0 +1,196 @@
+*
+    {
+        padding: 0%;
+        margin: 0%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+#contenedor 
+    {
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+.middle-box
+    {
+        margin: 0% 15%;
+        border: 2% solid black;
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        height: auto;
+    } 
+nav 
+    {
+        float: left;
+        width: 20%;
+        background-color: white;
+    } 
+.cajaizq nav ul li
+    {
+        list-style: none;
+        border: 2px solid rgb(0, 0, 55);
+        border-radius: 5px;
+        padding: 10px;
+    }
+.cajaizq nav ul li a
+    {
+        text-decoration: none;
+        color: black;
+    }  
+.box-right  
+    {   
+        background-color: #016274;
+        margin: 0% 50px;
+        color: white;
+        border: 5px solid #016274;
+        border-radius: 10px;
+        width: 50%;
+        height: 10%;
+        left: 25%;
+        position: relative;
+    }
+.box-middle 
+    {
+        background-color: white;
+        width: 50%;
+        height: 25%;
+        left: 9.6%;
+        position: relative;
+        overflow: hidden;
+    }
+.box-middle a
+    {
+        left: 20%;
+        top: 90%;
+        text-decoration-line: none;
+        font-size: 150%;
+        position: absolute;
+    }
+.midle-lenguajeclass    
+    {
+        width: 70%;
+        height: auto;
+        background-color: white;
+        float: right;
+        overflow: hidden;
+    }
+.box1
+    {
+        width: 25%;
+        height: 30px;
+        font-size: 50%;
+        margin: 1.5% 5%;
+        border: 3px solid black;
+        border-radius: 3%;
+        text-align: center;
+        background-color: white;
+        overflow: hidden;
+        float: left;
+
+    }
+.box1 img 
+    {
+        height: 100%;
+        width: 40px;
+        float: left;
+    }
+.caja1{
+    width: 70%;
+    height: 290px;
+    float: left;
+    }
+.caja2{
+    width: 30%;
+    height: 290px;
+    float: left;
+}
+.caja2 h1{
+text-align: center;
+font-family: tahoma;
+}
+.caja2 p{
+    text-align: left;
+    font-family: tahoma;
+    font-size: larger;
+}
+.banner{
+    width: 28%;
+    height: 290px;
+    float: left;
+    margin-top: -5%;
+    margin-left: 5%;
+}
+.banner2{
+    width: 28%;
+    height: 290px;
+    float: left;
+    margin-top: -5%;
+    margin-left: 5%;
+}
+.banner3{
+    width: 28%;
+    height: 290px;
+    float: left;
+    margin-top: -5%;
+    margin-left: 5%;
+}
+.contenedorpie{
+    width: 100%;
+    margin-top:15%;
+    height: auto;
+    border: 1px solid black;
+    background-color: #016274;
+}
+.redsocial{
+    text-align: center;
+}
+.redsocial a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 5%;
+    text-align: center;
+    color:white;
+}
+.redsocial:hover a{
+    color: #636363;
+}
+.logofo{
+    margin-left: 42%;
+    margin-top: 2%;
+}
+.ubicacion{
+    border-top: solid white 1px;
+    margin-left: 70%;
+    margin-top:-10%;
+}
+.img{
+    margin-top: 10%;
+}
+.nosotros{
+    background-color: #016274;
+    border-top: solid white 1px;
+    width: 35%;
+    margin-top:-0.5%;
+}
+.nosotros ul{
+    margin-top: 10%;
+}
+.nosotros ul li {
+    margin-top: 5%;
+    text-align: center;
+}
+.nosotros ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+}
+.nosotros h6{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+}
+.nosotros ul li a i{
+   font-size:15px;
+}
