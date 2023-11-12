@@ -20,7 +20,7 @@ nav ul{
     font-size: 19px;
 }
 .navegacion-header a:hover{
-    color: rgba(0, 0, 0, 0.568);
+    color: #3fffe9;
 }
 @media (max-width: 702px ) {
     nav ul{
