@@ -22,7 +22,7 @@ nav ul{
 .navegacion-header a:hover{
     color: rgba(0, 0, 0, 0.568);
 }
-@media (max-width: 620px ) {
+@media (max-width: 702px ) {
     nav ul{
         display: block;
         height: 300px;
@@ -45,7 +45,7 @@ nav ul{
     gap: 100px;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 50px;
 }
 .texto-1 h3{
     font-size: 40px;
@@ -71,12 +71,24 @@ nav ul{
     }
 }
 /*seccion 2 (nuestra historia)*/
-.nuestra-historia{
+.nuestra-historia {
     background-color: #016274;
     height: 82px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 35%;
+}
+@media (max-width: 702px) {
+    .nuestra-historia{
+        gap: 20%;
+    }
+}
+.img-nuestra-historia img{
+    margin-left: 55px;
+}
+.nuestra-historia h3{
+    color: white;
+    margin-left: -50%;
 }
 /*seccion 3 (nuestra historia)*/
 .contenido-3{
