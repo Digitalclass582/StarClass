@@ -3,6 +3,9 @@
     padding: 0%;
     margin: 0%;
 }
+.navegacion-header .resaltar{
+    color: #90e0ef;
+}
 nav ul{
     background-color: #016274;
     display: flex;
@@ -20,7 +23,7 @@ nav ul{
     font-size: 19px;
 }
 .navegacion-header a:hover{
-    color: #3fffe9;
+    color: #90e0ef;
 }
 @media (max-width: 702px ) {
     nav ul{

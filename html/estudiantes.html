@@ -5,51 +5,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>StarClass</title>
         <link rel="stylesheet" href="../css/estudiantes.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
     </head>
     <body>
-        <div id="contenedor">
-            <header>
-                <div class="logo">
-                    <img src="../Assets/images/logosinfondo.png" alt="" width="15%" height="100px">
-                </div>
-            </header>
-            <div class="contcent">
-                <h1> Estudiante </h1>
-                <h6>Tenemos variedad de recursos virtuales. Aquí podrás acceder a cada uno de estos </h6>
+        <header>
+            <nav>
+                <ul>
+                    <div class="img-header">
+                        <a href="./index.html"><img src="./../Assets/img-sobre-nosotros/logo.png" alt="logo-inicio" width="130px"></a>
+                    </div>
+                    <div class="navegacion-header">
+                        <a href="./index.html">Inicio</a>
+                        <a class="resaltar" href="./estudiantes.html">Estudiantes</a>
+                        <a href="./docentes.html">Docentes</a>
+                        <a href="./productos.html">Productos</a>
+                        <a href="./nosotros.html">Nosotros</a>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <section class="registro-estudiantes">
+            <h3>¡Se Parte De Nosotros!</h3>
+            <p>Te Contactamos.</p>
+            <div class="formulario-1">
+            <div class="formularios">
+                <label for="Nombre"></label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
             </div>
-            <section>
-                <div class="caja">
-                    <div class="caja1">
-                        <img src="../Assets/images/estud1.jpg" alt="" width="100%" height="200px">
-                        <h2> School </h2>
-                    </div>
-                    <div class="caja2">
-                        <p class="text">Ingresa a tu plataforma School para programar tus clases de los programas, realizar tus pagos o hacer una solicitud.Es tu perfil personal , al que pueden acceder los profesores de nuestra academia</p>
-                        <center><input  value="ingresar" type="text" class="boton"></center>
-                    </div>
-                </div>
-                <div class="caja">
-                    <div class="caja1">
-                        <img src="../Assets/images/estu2.jpeg" alt="" width="100%" height="200px">
-                        <h2>Star Online</h2>
-                    </div>
-                    <div class="caja2">
-                        <p class="text">Ingresa a tu plataforma de Smart Online y avanza en tu aprendizaje con todo nuestro contenido de autoestudio, más clases grupales en vivo con nuestros docentes especializados en la enseñanza de idiomas.</p>
-                        <center><input  value="ingresar" type="text" class="boton"></center>
-                    </div>
-                </div>
-                <div class="caja">
-                    <div class="caja1">
-                        <img src="../Assets/images/estu3.jpg" alt="" width="100%" height="200px">
-                        <h2>Campus</h2>
-                    </div>
-                    <div class="caja2">
-                        <p class="text">Accede a un espacio en el que podrás interactuar con tus compañeros y docentes, acceder a contenidos interesantes en tu idioma, tips de aprendizaje y cursos diseñados especialmente para tí.</p>
-                        <center><input  value="ingresar" type="text" class="boton"></center>
-                    </div>
-                </div>
-
-            </section>
+            <div class="formularios">
+                <label for="Telefono"></label>
+                <input type="text" name="Telefono" id="Telefono" placeholder="Teléfono">
+            </div>
+            <div class="formularios">
+                <label for="Correo"></label>
+                <input type="email" name="Correo-electronico" id="Correo-electronico" placeholder="Correo electrónico">
+            </div>
+            <div class="formularios">
+                <label for="Ciudad"></label>
+                <input type="text" name="Ciudad" id="Ciudad" placeholder="Ciudad">
+            </div>
         </div>
+            <div class="comentario-llenar">
+                <label for="Comentanos"></label>
+                <textarea row="4" col="15" placeholder="Comentario"></textarea>
+            </div>
+            <div class="formulario-boton">
+                <input type="submit" value="Enviar">
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
     </body>
 </html>
