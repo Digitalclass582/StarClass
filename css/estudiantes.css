@@ -88,9 +88,13 @@ nav ul{
     border-style: none;
     
 }
-@media (max-width:420px ) {
+
+@media (max-width:700px ) {
     .registro-estudiantes{
-        height: 640px;
+        height: 800px;
+    }
+    .formularios{
+        width: 100%;
     }
 }
 
