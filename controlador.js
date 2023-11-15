@@ -4,7 +4,7 @@ botonFormulario.addEventListener("click",function(){
     let contrasena=document.getElementById("password")
 
     setTimeout(function(){ window.location.href="./index.html"
-},1000)
+},2000)
 Swal.fire({
     title: "BIENVENIDO " +usuario.value,
     icon: "success"
