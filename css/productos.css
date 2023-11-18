@@ -74,6 +74,16 @@ justify-content: center;
     text-align: justify;
 }
 .redes a{
-    font-size: 35px;
+    font-size: 50px;
     margin-left: 5%;
+    color:black;
+}
+.redes a:hover{
+    color: #90e0ef;
+}
+#productositem{
+    color: #90e0ef;
+}
+#item{
+    color: white;
 }

@@ -5,191 +5,267 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarClass</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/inicio.css">
     <link rel="shortcut icon" href="../Assets/icons/logo2-removebg-preview.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="https://kit.fontawesome.com/d9c699d2f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 </head>
 
 <body>
-    <div id="contenedor">
-        <div class="middle-box">
-            <div class="cajaizq">
-                <nav>
-                    <ul>
-                        <li>
-                            <img src="../Assets/images/logo-menu.png" alt="">
+    <header>
+        <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="../Assets/img-sobre-nosotros/logo.png"
+                        class="img-fluid" alt="" width="120px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html" id="inicio">Inicio</a>
                         </li>
-                        <li>
-                            <a href="../html/index.html">INICIO</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./estudiantes.html" id="item">Estudiantes</a>
                         </li>
-                        <li>
-                            <a href="estudiantes.html">ESTUDIANTES</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./docentes.html" id="item">Docentes</a>
                         </li>
-                        <li>
-                            <a href="docentes.html">DOCENTES</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html" id="item">Productos</a>
                         </li>
-                        <li>
-                            <a href="productos.html">PRODUCTOS</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html" id="item">Nosotros</a>
                         </li>
-                        <li>
-                            <a href="nosotros.html">NOSOTROS</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="box-right">
-                <h1>Barra de Búsqueda</h1>
-                <form action="/buscar" method="get">
-                    <label for="busqueda">Buscar:</label>
-                    <input type="text" id="busqueda" name="q" placeholder="Escribe tu búsqueda aquí" />
-                    <input type="submit" value="Buscar" />
-                </form>
-            </div>
-            <div class="box-middle">
-                <img src="../Assets/images/index-centro-img.png" alt="">
-                <a href="pagos.html">¿Quieres aprender con nosotros?</a>
-            </div>
-            <div class="midle-lenguajeclass">
-                <div class="box1">
-                    <img src="../Assets/icons/Ingles.jpg" alt="">
-                    <h1>Curso de Inglés</h1>
-                </div>
-                <div class="box1">
-                    <img src="../Assets/icons/Francia.jpg" alt="">
-                    <h1>Curso de Frances</h1>
-                </div>
-                <div class="box1">
-                    <img src="../Assets/icons/Portugues.jpg" alt="">
-                    <h1>Curso de Portugues</h1>
-                </div>
-                <div class="box1">
-                    <img src="../Assets/icons/Aleman.jpg" alt="">
-                    <h1>Curso de Aleman</h1>
-                </div>
-                <div class="box1">
-                    <img src="../Assets/icons/Japones.jpg" alt="">
-                    <h1>Curso de Japones</h1>
-                </div>
-                <div class="box1">
-                    <img src="../Assets/icons/Mandarín.jpg" alt="">
-                    <h1>Curso de Mandarín</h1>
-                </div>
-            </div>
-        </div>
-        <section>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#016274" fill-opacity="0"
-                    d="M0,128L48,149.3C96,171,192,213,288,192C384,171,480,85,576,74.7C672,64,768,128,864,170.7C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-                </path>
-            </svg>
-            <div class="curved">
 
-                <div class="caja1">
-                    <img src="../Assets/images/estudiante1.png" alt="" height="95%">
-                    <img src="../Assets/images/estudainte2.png" alt="" height="95%">
-                    <img src="../Assets/images/estudainte3.png" alt="" height="95%">
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
-            <div class="caja2">
-                <h1>Ser Estudiante</h1>
-                <p>Nuestros estudiantes se destacan por sus excelentes habilidades de aprendizajes y las diversas
-                    culturas con las que comparten en esta plataforma</p>
-            </div>
-        </section>
-        <section>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#016274" fill-opacity=""
-                    d="M0,128L48,149.3C96,171,192,213,288,192C384,171,480,85,576,74.7C672,64,768,128,864,170.7C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-                </path>
-            </svg>
-            <div class="caja2">
-                <h1>Ser Docente</h1>
-                <p>Nuestros docentes provienen de las universidades más prestigiosas a nivel nacional y mundial</p>
-            </div>
-            <div class="curved">
-                <div class="caja1">
-                    <img src="../Assets/images/udea.png" alt="" height="70%">
-                    <img src="../Assets/images/harvad.png" alt="" height="70%">
-                    <img src="../Assets/images/cambridge.png" alt="" height="60%">
-                </div>
-            </div>
-        </section>
-        <section>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#016274" fill-opacity="1"
-                    d="M0,128L48,149.3C96,171,192,213,288,192C384,171,480,85,576,74.7C672,64,768,128,864,170.7C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-                </path>
-            </svg>
-            <div class="banner">
-                <h2>Star Class</h2>
-                <h3>BasicPackage</h3>
-                <p> Obtén los elementos básicos para comunicarte en corto tiempo dominando un nuevo idioma.
-                </p>
-                <ul>
-                    <li>2 Cursos</li>
-                    <li>6 messes de acceso</li>
-                    <li>2 modulos</li>
-                    <li>secciones en vivo</li>
-                </ul>
-            </div>
-            <div class="banner2">
-                <h2>Star Class</h2>
-                <h3>AdvancedPackage</h3>
-                <p> Perfecciona en corto tiempo tus habilidades comunicativas en un segundo idioma.
-                </p>
-                <ul>
-                    <li>4 Cursos</li>
-                    <li>1 año de acceso</li>
-                    <li>4 modulos</li>
-                    <li>Secciones grupales</li>
-                </ul>
-            </div>
-            <div class="banner3">
-                <h2>Star Class</h2>
-                <h3>FullPack</h3>
-                <p> Inicia desde cero y logra llevar tu formación a un nivel avanzado.
-                </p>
-                <ul>
-                    <li>Todos los cursos</li>
-                    <li>Acceso ilimitado</li>
-                    <li>6 modulos</li>
-                    <li>Secciones individuales y personalizadas</li>
-                </ul>
-            </div>
-        </section>
-        <div class="contenedorpie">
-            <footer class="piedepagina">
-                <div class="footer-link">
-                    <div class="colum">
-                        <div class="redsocial">
-                            <a href="https://www.facebook.com/people/Star-Class/pfbid0ykNYUsbWY261YGg5k7dbV6oLHVaUHiSYxeyGsteHMd49ifziNcyu7GdejZcbySx5l/"
-                                class="fa fa-facebook"></a><a href="https://www.instagram.com/sc_star_class/?next=%2F"
-                                class="fa fa-instagram"></a><a href="https://twitter.com/StarClass_SC"
-                                class="fa fa-twitter"></a><a href="#" class="fa-brands fa-tiktok"></a>
-                            <a href="#" class="fa fa-youtube"></a>
+        </nav>
+    </header>
+    <main>
+        <div class="banner"> <img src="../Assets/img-estudiantes/Fondo-estudiantes.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="cards">
+            <center>
+                <p class="fs-3 mt-4"><a href="./estudiantes.html"
+                        class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ">¿QUIERES
+                        APRENDER CON NOSOTROS?</a></p>
+            </center>
+            <div class="row row-cols-1 row-cols-md-6 g-4 mt-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../Assets/icons/Ingles.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Inglés</h5>
                         </div>
                     </div>
-                    <nav class="nosotros">
-                        <ul>
-                            <li><a href="">Contacto</a></li>
-                            <li><a href=""><i class="fas fa-map-marker-alt"></i> Colombia,Medellín</a></li>
-                            <li><a href=""><i class="fas fa-phone"></i> 28930304</a></li>
-                            <li><a href=""><i class="fas fa-envelope"></i> digitalclass582@gmail.com</a></li>
-                        </ul>
-                        <h6>© 2023 StarClass®</h6>
-                    </nav>
-                    <div class="logofo">
-                        <img src="../Assets/images/logosinfondo.png" alt="" height="120px">
-                    </div>
-                    <div class="ubicacion">
-                        <div class="img"><img src="../Assets/images/maps.PNG" alt="" width="350px"></div>
-                    </div>
-
                 </div>
-            </footer>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../Assets/icons/Francia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Francés</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../Assets/icons/Portugues.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Portugués</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../Assets/icons/Aleman.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Alemán</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../Assets/icons/Mandarín.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mandarín</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../Assets/icons/Japones.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Japonés</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="wave">
+        </div>
+        <div class="container-lg" style="background-color:#FFFF;">
+            <section class=" container my-5">
+                <h1 class="mt-3">Estudiantes</h1>
+                <section class="row">
+                    <section class="col-md-5 text-center align-self-center container-fluid"
+                        style="background-color:gray;border-radius:50%;">
+                        <img src="../Assets/images/estudiante1.png" alt="" class="img-fluid w-100">
+                    </section>
+                    <section class="col-md-5 text-center align-self-start">
+                        <h2>Ser Estudiante</h2>
+                        <p class="fs-4 text">Nuestros estudiantes se destacan por sus excelentes habilidades de
+                            aprendizajes y las
+                            diversas
+                            culturas con las que comparten en esta plataforma</p>
+
+                    </section>
+
+                </section>
+
+            </section>
+        </div>
+        <div class="container-lg" style="background-color:#FFFF;">
+            <section class="container my-5">
+                <h1 class="mt-3">Docentes</h1>
+                <section class="row">
+                    <section class="col-md-5 text-center align-self-center container-fluid">
+                        <h2>Ser Docente</h2>
+                        <p class="fs-4 text">Nuestros docentes provienen de las universidades más prestigiosas a nivel
+                            nacional y mundial</p>
+                    </section>
+                    <section class="col-md-5 text-center align-self-center container-fluid"
+                        style="background-color:gray;border-radius:50%;">
+                        <img src="../Assets/images/cambridge (2).png" alt="" class="img-fluid w-100">
+
+                    </section>
+
+                </section>
+
+            </section>
+        </div>
+        <section>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="fw-bold card-title">STARCLASS</h3>
+                            <h3 class="text-decoration-underline" style="color: red;">BasicPackage</h3>
+                            <p class="fs-4 card-text">Obtén los elementos básicos para comunicarte en corto tiempo
+                                dominando un nuevo idioma.
+                            </p>
+                            <a href="./estudiantes.html" class="fs-5 btn btn-danger">Comenzar</a>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="fs-4 list-group-item">2 cursos</li>
+                            <li class="fs-4 list-group-item">6 meses de acceso</li>
+                            <li class="fs-4 list-group-item">2 módulos</li>
+                            <li class="fs-4 list-group-item">Secciones en vivo.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="fw-bold card-title">STARCLASS</h3>
+                            <h3 class="text-decoration-underline" style="color: red;">AdvancedPackage</h3>
+                            <p class="fs-4 card-text">Perfecciona en corto tiempo tus habilidades comunicativas en un
+                                segundo idioma.
+                            </p>
+                            <a href="./estudiantes.html" class="fs-5 btn btn-danger">Comenzar</a>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="fs-4 list-group-item">4 años</li>
+                            <li class="fs-4 list-group-item">1 año de acceso</li>
+                            <li class="fs-4 list-group-item">4 módulos</li>
+                            <li class="fs-4 list-group-item">Secciones grupales.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="fw-bold card-title">STARCLASS</h3>
+                            <h3 class="text-decoration-underline" style="color: red;">FullPack</h3>
+                            <p class="fs-4 card-text">Inicia desde cero y logra llevar tu formación a un nivel avanzado.
+                            </p>
+                            <a href="./estudiantes.html" class="fs-5 btn btn-danger">Comenzar</a>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="fs-4 list-group-item">Todos los cursos</li>
+                            <li class="fs-4 list-group-item">Acceso ilimitado</li>
+                            <li class="fs-4 list-group-item">6 módulos</li>
+                            <li class="fs-4 list-group-item">Secciones individuales y personalizadas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+        <div class="mt-5 container-fluid" style="background-color:#016274;">
+            <img src="../Assets/img-estudiantes/wave2.png" alt="" class="img-fluid w-100">
+            <div class="container overflow-hidden text-center">
+                <div class="row gx-5">
+                    <div class="col">
+
+                        <img src="../Assets/img-sobre-nosotros/logo-alone.png" class="img-fluid w-75" alt="...">
+
+                    </div>
+                    <div class="col">
+                        <h5 class="text-light fw-semibold fs-4">Contacto</h5>
+                        <p class="text-light fw-semibold fs-4"> Medellin,colombia</p>
+                        <p class="text-light fw-semibold fs-4">2839494</p>
+                        <p class="text-light fw-semibold fs-4"> digitalclass582@gmail.com
+                        </p>
+                        <h6 class="text-light fw-semibold fs-5 ">© 2023 StarClass®</h6>
+                    </div>
+                    <div class="col">
+                        <h5 class="text-light fw-semibold fs-4">
+                            Presencial</h5>
+                        <p class="text-light fw-semibold fs-4">Ingles</p>
+                        <p class="text-light fw-semibold fs-4">Frances</p>
+                        <p class="text-light fw-semibold fs-4">Exámenes internacionales</p>
+                        <h6 class="text-light fw-semibold fs-4">Preparación de exámenes</h6>
+                    </div>
+                    <div class="col">
+                        <h5 class="text-light fw-semibold fs-4">
+                            Online</h5>
+                        <p class="text-light fw-semibold fs-4">Personalizado Online</p>
+                        <p class="text-light fw-semibold fs-4">Smart Online</p>
+                        <p class="text-light fw-semibold fs-4">Cursos Cortos</p>
+                        <h6 class="text-light fw-semibold fs-4">Blog</h6>
+                    </div>
+                    <div class="col redes">
+                        <h5 class="text-light fw-semibold fs-4">
+                            Redes</h5>
+                        <p><a href="https://www.facebook.com/people/Star-Class/pfbid0ykNYUsbWY261YGg5k7dbV6oLHVaUHiSYxeyGsteHMd49ifziNcyu7GdejZcbySx5l/"
+                                class="bi bi-facebook "></a></p>
+                        <p><a href="https://www.instagram.com/sc_star_class/?next=%2F" class="bi bi-instagram"></a></p>
+                        <p><a href="https://twitter.com/StarClass_SC" class="bi bi-twitter"></a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 container-fluid">
+                <img src="../Assets/images/maps.PNG" class="img-fluid w-100 h-25" alt="...">
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

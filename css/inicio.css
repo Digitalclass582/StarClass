@@ -1,0 +1,27 @@
+.menu{
+    background-color:#016274;
+}
+#inicio{
+    color: #90e0ef;
+}
+#item{
+    color: white;
+}
+#item:hover{
+    
+    color: #90e0ef;
+}
+#cont{
+    background-color: aqua;
+}
+.bottom-img{
+    margin-top: 60%;
+}
+.redes a{
+    font-size: 50px;
+    margin-left: 5%;
+    color:white;
+}
+.redes a:hover{
+    color: #90e0ef;
+}
