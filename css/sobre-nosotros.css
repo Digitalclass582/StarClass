@@ -3,42 +3,14 @@
     padding: 0%;
     margin: 0%;
 }
-.navegacion-header .resaltar{
+.menu{
+    background-color:#016274;
+}
+#nosotros{
     color: #90e0ef;
 }
-nav ul{
-    background-color: #016274;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height: 82px;
-}
-.img-header{
-    margin-left: 25px;
-}
-.navegacion-header a{
-    margin: 10px;
+#item{
     color: white;
-    text-decoration: none;
-    font-size: 19px;
-}
-.navegacion-header a:hover{
-    color: #90e0ef;
-}
-@media (max-width: 702px ) {
-    nav ul{
-        display: block;
-        height: 300px;
-    }
-    .img-header{
-        text-align: center;
-    }
-    .navegacion-header{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 23px;
-    }
 }
 /*secion 1 contenido*/
 .seccion-1{
@@ -47,7 +19,7 @@ nav ul{
     align-items: center;
     gap: 100px;
     max-width: 1920px;
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 50px 50px;
 }
 .texto-1 h3{
@@ -121,52 +93,12 @@ nav ul{
     border-radius: 40px;
     width: 100%;
 }
-.copyright{
-    height: 50px;
-    background-color: #016274;
-    color: white;
+
+.redes a{
+    font-size: 35px;
+    margin-left: 5%;
+    color:white;
 }
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #016274;
-}
-footer hr{
-    border: 1px solid white;
-    width: 80%;
-}
-.redes-sociales{
-    display: flex;
-    flex-direction: row;
-}
-.redes-sociales img{
-    padding: 6px;
-}
-.redes-sociales img:hover{
-    transition-duration: 0.29s;
-    padding: 10px;
-}
-footer h3, img{
-    margin: 5px;
-    color: white;
-}
-footer h3:hover{
+.redes a:hover{
     color: #90e0ef;
-    transition-duration: 0.55s;
-}
-footer .contactos-sociales{
-    display: flex;
-    gap: 30px;
-    color: white;
-}
-@media (max-width:400px) {
-    footer .contactos-sociales{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .redes-sociales img{
-        width: 50px;
-    }
 }

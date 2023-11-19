@@ -89,3 +89,8 @@ justify-content: center;
 #item{
     color: white;
 }
+.redes a{
+    font-size: 35px;
+    margin-left: 5%;
+    color:white;
+}
