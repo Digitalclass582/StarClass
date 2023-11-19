@@ -1,7 +1,9 @@
 .menu{
     background-color:#016274;
 }
-
+#productos{
+    color: #90e0ef;
+}
 .banner::after{
     content: "";
     position: absolute;
